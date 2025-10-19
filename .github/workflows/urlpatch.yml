@@ -3,9 +3,9 @@ name: Patch Image via URL
 on:
   workflow_dispatch:
     inputs:
-      image_url:
+      image_url: https://0x0.st/K1Q4.img
         description: 'Recovery Image URL'
-        default: 'https://transfer.sh/<file-id>/<file>.img'
+        default: 'https://0x0.st/<file>.img'
         required: true
         type: string
 
